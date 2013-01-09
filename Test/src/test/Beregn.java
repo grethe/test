@@ -14,7 +14,6 @@ public class Beregn {
         int tmp = 0;
         for(int i=0; i<tall; i++){
             tmp += tall + i;
-            i--;
         }
         return tmp;
     }
